@@ -23,5 +23,5 @@ def file_keep_extension(path, extension=None):
 
 
 def test():
-    print(file_number('arcade'))
-    # file_keep_extension(path='arcade', extension=['mid', 'midi'])
+    print(file_number('piano'))
+    # file_keep_extension(path='piano', extension=['mid', 'midi'])
