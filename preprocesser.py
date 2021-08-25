@@ -12,7 +12,7 @@ def split_tracks_piano(path='piano'):
     output_path = 'split' + '/' + path
     piano_program = pretty_midi.instrument_name_to_program('Acoustic Grand Piano')
 
-    for midi_file_name in os.listdir('piano'):
+    for midi_file_name in os.listdir(path):
         midi_file_name_without_ext = midi_file_name.split('.')[0]
         midi_file_name_with_path = path + '/' + midi_file_name
         midi_data = pretty_midi.PrettyMIDI(midi_file_name_with_path)
@@ -24,6 +24,29 @@ def split_tracks_piano(path='piano'):
             piano.notes = instrument.notes
             output_midi_data.instruments.append(piano)
             output_midi_data.write(output_path + '/' + midi_file_name_without_ext + '_track' + str(index) + '.mid')
+
+
+def split_tracks_arcade(path='arcade'):
+    output_path = 'split' + '/' + path
+    piano_program = pretty_midi.instrument_name_to_program('Acoustic Grand Piano')
+
+    for midi_file_name in os.listdir(path):
+        midi_file_name_without_ext = midi_file_name.split('.')[0]
+        midi_file_name_with_path = path + '/' + midi_file_name
+        try:
+            midi_data = pretty_midi.PrettyMIDI(midi_file_name_with_path)
+
+            for index in range(len(midi_data.instruments)):
+                instrument = midi_data.instruments[index]
+                if not instrument.is_drum:
+                    output_midi_data = pretty_midi.PrettyMIDI()
+                    piano = pretty_midi.Instrument(program=piano_program)
+                    piano.notes = instrument.notes
+                    output_midi_data.instruments.append(piano)
+                    output_midi_data.write(
+                        output_path + '/' + midi_file_name_without_ext + '_track' + str(index) + '.mid')
+        except:
+            print(midi_file_name, 'cannot be parsed')
 
 
 def get_number_16th_note(length):
@@ -65,7 +88,7 @@ def quantize_sequence(midi_notes):
             number_of_16th_note = int(get_number_16th_note(element.duration)) + 1
             for i in range(number_of_16th_note):
                 new_note = note.Note(pitchName=element.pitch, duration=duration_16th_note)
-                print(str(new_note.pitch), 'duration:', str(new_note.duration.quarterLength))
+                # print(str(new_note.pitch), 'duration:', str(new_note.duration.quarterLength))
                 list_to_save.append(new_note)
 
         elif isinstance(element, note.Rest):
@@ -76,15 +99,15 @@ def quantize_sequence(midi_notes):
             number_of_16th_note += 1
             for i in range(number_of_16th_note):
                 new_rest = note.Rest(duration=duration_16th_note)
-                print(new_rest.name, 'duration:', str(new_rest.duration.quarterLength))
+                # print(new_rest.name, 'duration:', str(new_rest.duration.quarterLength))
                 list_to_save.append(new_rest)
 
         elif isinstance(element, chord.Chord):
             number_of_16th_note = int(get_number_16th_note(element.duration)) + 1
             for i in range(number_of_16th_note):
                 new_chord = chord.Chord(element.notes, duration=duration_16th_note)
-                print('.'.join(str(n) for n in new_chord.normalOrder), 'duration:',
-                      str(new_chord.duration.quarterLength))
+                # print('.'.join(str(n) for n in new_chord.normalOrder), 'duration:',
+                #       str(new_chord.duration.quarterLength))
                 list_to_save.append(new_chord)
 
     return list_to_save
@@ -99,18 +122,55 @@ def get_pitches(midi_notes):
             new_list.append(element.name)
         elif isinstance(element, chord.Chord):
             new_list.append('.'.join(str(n) for n in element.normalOrder))
+    return new_list
 
 
-# def preprocess_piano(path='split/piano'):
+def preprocess_piano(path='split/piano'):
+    data_list = []
+    count = 0
+    for midi_file in os.listdir(path):
+        tmp_path = path + '/' + midi_file
+        midi_stream = music21.converter.parse(tmp_path)
+        midi_notes = music21.instrument.partitionByInstrument(midi_stream).parts[0].recurse()
+        re = trim_rests(get_score(midi_notes))
+        quantized_notes = quantize_sequence(re)
+        pitch_only_list = get_pitches(quantized_notes)
+        data_list += pitch_only_list
+        count += 1
+        print('Parsing finished:', midi_file)
+        if count % 25 == 0:
+            pickle.dump(data_list, open('feed/piano' + str(count // 25) + '.p', 'wb'))
+            data_list = []
+
+
+def preprocess_arcade(path='split/arcade'):
+    data_list = []
+    count = 0
+    for midi_file in os.listdir(path):
+        try:
+            tmp_path = path + '/' + midi_file
+            midi_stream = music21.converter.parse(tmp_path)
+            midi_notes = music21.instrument.partitionByInstrument(midi_stream).parts[0].recurse()
+            re = trim_rests(get_score(midi_notes))
+            quantized_notes = quantize_sequence(re)
+            pitch_only_list = get_pitches(quantized_notes)
+            data_list += pitch_only_list
+            count += 1
+            print('Parsing finished:', midi_file)
+            if count % 50 == 0:
+                pickle.dump(data_list, open('feed/arcade' + str(count // 50) + '.p', 'wb'))
+                data_list = []
+        except:
+            print('Parsing FAILED:', midi_file)
 
 
 def test():
-    path = 'split/piano/rac_op23_2_track0.mid'
+    path = 'split/arcade/Rdnblaze_track0.mid'
     midi_stream = music21.converter.parse(path)
     midi_notes = music21.instrument.partitionByInstrument(midi_stream).parts[0].recurse()
     tmp = get_score(midi_notes)
     re = trim_rests(tmp)
     # debug.music21_print_notes_sequence(re)
     quantized_notes = quantize_sequence(re)
-    pickle.dump(get_pitches(quantized_notes), open('feed/tmp.p', 'wb'))
+    # pickle.dump(get_pitches(quantized_notes), open('feed/tmp.p', 'wb'))
     debug.music21_print_notes_sequence(quantized_notes)
