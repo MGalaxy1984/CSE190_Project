@@ -2,6 +2,7 @@ import glob
 import os
 
 import pretty_midi
+from music21 import note, chord
 
 
 def file_number(path, extension='*'):
@@ -38,6 +39,16 @@ def print_notes_sequence(file_name_with_path):
         for note in instrument.notes:
             duration = note.end - note.start
             print(note.pitch, 'Duration = ', duration)
+
+
+def music21_print_notes_sequence(midi_notes):
+    for element in midi_notes:
+        if isinstance(element, note.Note):
+            print(str(element.pitch), 'duration:', str(element.duration.quarterLength))
+        elif isinstance(element, note.Rest):
+            print(element.name, 'duration:', str(element.duration.quarterLength))
+        elif isinstance(element, chord.Chord):
+            print('.'.join(str(n) for n in element.normalOrder), 'duration:', str(element.duration.quarterLength))
 
 
 def test():
