@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52839fdc-6410-480c-95d2-02e2dcb85f60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CSE190_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ClownDownTown.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bmxintro2.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_esp1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_esp2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_esp3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_esp4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_esp5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_esp6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se7_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/alb_se8_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/appass_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/appass_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/appass_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/bach_846_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/bach_847_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/bach_850_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_hammerklavier_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_hammerklavier_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_hammerklavier_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_hammerklavier_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_les_adieux_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_les_adieux_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_les_adieux_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus10_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus10_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus10_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus22_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus22_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus22_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus22_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus90_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/beethoven_opus90_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/br_im2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/br_im5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/br_im6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/br_rhap_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/brahms_opus117_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/brahms_opus117_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/brahms_opus1_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/brahms_opus1_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/brahms_opus1_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/brahms_opus1_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chp_op18_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chp_op31_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p10_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p11_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p12_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p13_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p14_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p15_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p16_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p17_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p18_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p19_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p20_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p21_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p22_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p23_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p24_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p7_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p8_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn-p9_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op10_e01_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op10_e05_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op10_e12_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op23_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op25_e11_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op25_e12_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op25_e1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op25_e2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op25_e3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op25_e4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op27_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op27_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op33_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op33_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op35_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op35_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op35_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op35_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op53_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op66_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op7_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/chpn_op7_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/elise_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/gra_esp_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/gra_esp_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/gra_esp_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_album_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_berceuse_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_brooklet_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_butterfly_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_elfentanz_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_halling_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_kobold_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_march_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_once_upon_a_time_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_spring_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_voeglein_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_waechter_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_walzer_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_wanderer_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_wedding_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/grieg_zwerge_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/hay_40_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/hay_40_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_33_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_33_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_33_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_35_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_35_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_35_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_43_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_43_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_43_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_7_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_7_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_7_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_8_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_8_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_8_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_8_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_9_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_9_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/haydn_9_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_donjuan_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et_trans4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et_trans5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_et_trans8_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_liebestraum_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_rhap02_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_rhap09_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_rhap10_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_rhap12_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/liz_rhap15_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op19_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op19_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op19_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op19_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op19_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op19_6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op30_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op30_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op30_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op30_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op30_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op53_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op62_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op62_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mendel_op62_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mond_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mond_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/mond_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/pathetique_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/pathetique_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/pathetique_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op23_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op23_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op23_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op23_7_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op32_13_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op32_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op33_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op33_6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op33_8_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/rac_op3_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schu_143_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schu_143_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schu_143_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d760_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d760_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d760_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d760_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d960_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d960_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d960_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schub_d960_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D850_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D850_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D850_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D850_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D935_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D935_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D935_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schubert_D935_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schuim-1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schuim-2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schuim-3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schuim-4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schum_abegg_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schumm-1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schumm-2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schumm-3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schumm-4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schumm-5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/schumm-6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_10_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_11_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_12_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_13_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_7_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_8_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn15_9_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_3_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_4_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_5_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_6_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_7_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn16_8_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn68_10_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/scn68_12_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/waldstein_1_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/waldstein_2_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano/waldstein_3_format0.mid" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xC7o1VEy9vkpgTAMc8k8JRaGio" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CSE190_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MGalaxy\anaconda3\envs\cse190_tf\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52839fdc-6410-480c-95d2-02e2dcb85f60" name="Changes" comment="" />
+      <created>1629847387573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629847387573</updated>
+      <workItem from="1629847388935" duration="9888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CSE190_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1629863210984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
