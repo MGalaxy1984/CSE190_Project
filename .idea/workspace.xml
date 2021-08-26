@@ -7,8 +7,6 @@
     <list default="true" id="52839fdc-6410-480c-95d2-02e2dcb85f60" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629847387573</updated>
-      <workItem from="1629847388935" duration="37084000" />
+      <workItem from="1629847388935" duration="38243000" />
     </task>
     <servers />
   </component>
