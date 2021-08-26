@@ -16,4 +16,9 @@ import sample_preprocess
 # preprocesser.preprocess_piano()
 # sample_preprocess.preprocess_arcade()
 # data_preprocess.piano_midi_to_npy()
-data_preprocess.arcade_midi_to_npy()
+# data_preprocess.arcade_midi_to_npy()
+# import train_test_set_split
+#
+# train_test_set_split.split('datasets/arcade')
+# train_test_set_split.remove_original('datasets/arcade')
+# debug.shrink_sample_size()

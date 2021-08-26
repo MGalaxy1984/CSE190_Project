@@ -118,7 +118,7 @@ def piano_midi_to_npy(path='split/piano'):
                 elif isinstance(element, chord.Chord):
                     for p in element.pitches:
                         n[i, get_index_in_matrix_by_pitch(p), 0] = True
-            filename = 'dataset_piano/piano' + str(npy_count) + '.npy'
+            filename = 'datasets/piano/piano' + str(npy_count) + '.npy'
             np.save(file=filename, arr=n)
             batch_64_count += 1
             npy_count += 1
@@ -148,7 +148,7 @@ def arcade_midi_to_npy(path='split/arcade'):
                     elif isinstance(element, chord.Chord):
                         for p in element.pitches:
                             n[i, get_index_in_matrix_by_pitch(p), 0] = True
-                filename = 'dataset_arcade/arcade' + str(npy_count) + '.npy'
+                filename = 'datasets/arcade/arcade' + str(npy_count) + '.npy'
                 np.save(file=filename, arr=n)
                 batch_64_count += 1
                 npy_count += 1

@@ -1,5 +1,6 @@
 import glob
 import os
+import random
 
 import pretty_midi
 from music21 import note, chord
@@ -44,7 +45,8 @@ def print_notes_sequence(file_name_with_path):
 def music21_print_notes_sequence(midi_notes):
     for element in midi_notes:
         if isinstance(element, note.Note):
-            print(str(element.pitch), '#' + str(int(element.pitch.ps)), 'duration:', str(element.duration.quarterLength))
+            print(str(element.pitch), '#' + str(int(element.pitch.ps)), 'duration:',
+                  str(element.duration.quarterLength))
         elif isinstance(element, note.Rest):
             print(element.name, 'duration:', str(element.duration.quarterLength))
         elif isinstance(element, chord.Chord):
@@ -56,3 +58,17 @@ def test():
     remove_single_track_samples('piano', 'format0')
     # file_keep_extension(path='piano', extension=['mid', 'midi'])
     print(file_number('piano'))
+
+
+def shrink_by_half(path):
+    file_list = glob.glob(path + '/' + '*.npy')
+    random.shuffle(file_list)
+    for file_name in file_list[0:len(file_list) // 2]:
+        os.remove(file_name)
+
+
+def shrink_sample_size():
+    shrink_by_half('datasets/arcade/train')
+    shrink_by_half('datasets/arcade/test')
+    shrink_by_half('datasets/piano/train')
+    shrink_by_half('datasets/piano/test')

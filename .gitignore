@@ -3,3 +3,6 @@ datasets/*
 arcade/*
 piano/*
 split/*
+samples/*
+*.zip
+*.pyc
