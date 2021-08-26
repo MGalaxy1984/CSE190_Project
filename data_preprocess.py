@@ -118,11 +118,43 @@ def piano_midi_to_npy(path='split/piano'):
                 elif isinstance(element, chord.Chord):
                     for p in element.pitches:
                         n[i, get_index_in_matrix_by_pitch(p), 0] = True
-            filename = 'test_output/piano' + str(npy_count) + '.npy'
+            filename = 'dataset_piano/piano' + str(npy_count) + '.npy'
             np.save(file=filename, arr=n)
             batch_64_count += 1
             npy_count += 1
         print('Parse finished:', midi_file, 'Current npy index:', str(npy_count))
+
+
+def arcade_midi_to_npy(path='split/arcade'):
+    npy_count = 0
+    midi_file_list = os.listdir(path)
+    for midi_file in midi_file_list:
+        try:
+            tmp_path = path + '/' + midi_file
+            midi_stream = music21.converter.parse(tmp_path)
+            midi_notes = music21.instrument.partitionByInstrument(midi_stream).parts[0].recurse()
+            re = trim_rests(get_score(midi_notes))
+            quantized_notes = quantize_sequence(re)
+            pitch_list = quantized_notes
+            batch_64_count = 0
+            while (batch_64_count * 64 + 64) < len(pitch_list):
+                n = np.zeros(shape=(64, 84, 1), dtype=np.bool)
+                for i in range(64):
+                    element = pitch_list[batch_64_count * 64 + i]
+                    if isinstance(element, note.Note):
+                        n[i, get_index_in_matrix_by_pitch(element.pitch), 0] = True
+                    elif isinstance(element, note.Rest):
+                        continue
+                    elif isinstance(element, chord.Chord):
+                        for p in element.pitches:
+                            n[i, get_index_in_matrix_by_pitch(p), 0] = True
+                filename = 'dataset_arcade/arcade' + str(npy_count) + '.npy'
+                np.save(file=filename, arr=n)
+                batch_64_count += 1
+                npy_count += 1
+            print('Parse finished:', midi_file, 'Current npy index:', str(npy_count))
+        except:
+            print('Parsing FAILED:', midi_file)
 
 # def preprocess_piano(path='split/piano'):
 #     data_list = []

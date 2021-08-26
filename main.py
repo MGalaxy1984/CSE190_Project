@@ -8,11 +8,12 @@ import debug
 import sample_preprocess
 
 # debug.test()
-# debug.print_notes_sequence('test_output/piano/lizet_et6_track2.mid')
+# debug.print_notes_sequence('dataset_piano/piano/lizet_et6_track2.mid')
 
 # preprocesser.test()
 # preprocesser.test_arcade()
 
 # preprocesser.preprocess_piano()
 # sample_preprocess.preprocess_arcade()
-data_preprocess.piano_midi_to_npy()
+# data_preprocess.piano_midi_to_npy()
+data_preprocess.arcade_midi_to_npy()

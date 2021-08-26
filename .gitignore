@@ -1,5 +1,6 @@
 *.pdf
-test_output/*
+dataset_piano/*
+dataset_arcade/*
 arcade/*
 piano/*
 split/*
