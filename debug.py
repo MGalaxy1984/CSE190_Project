@@ -44,11 +44,11 @@ def print_notes_sequence(file_name_with_path):
 def music21_print_notes_sequence(midi_notes):
     for element in midi_notes:
         if isinstance(element, note.Note):
-            print(str(element.pitch), 'duration:', str(element.duration.quarterLength))
+            print(str(element.pitch), '#' + str(int(element.pitch.ps)), 'duration:', str(element.duration.quarterLength))
         elif isinstance(element, note.Rest):
             print(element.name, 'duration:', str(element.duration.quarterLength))
         elif isinstance(element, chord.Chord):
-            print('.'.join(str(n) for n in element.normalOrder), 'duration:', str(element.duration.quarterLength))
+            print('.'.join(str(int(n.ps)) for n in element.pitches), 'duration:', str(element.duration.quarterLength))
 
 
 def test():
