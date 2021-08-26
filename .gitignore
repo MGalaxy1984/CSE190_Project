@@ -4,5 +4,6 @@ arcade/*
 piano/*
 split/*
 samples/*
+test/*
 *.zip
 *.pyc

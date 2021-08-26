@@ -416,11 +416,13 @@ class CycleGAN(object):
 
         if args.which_direction == 'AtoB':
             sample_files = glob('./datasets/{}/test/*.*'.format(self.dataset_A_dir))
+            sample_files.sort(key=lambda x: int(os.path.splitext(os.path.basename(x))[0].split('o')[-1]))
         elif args.which_direction == 'BtoA':
             sample_files = glob('./datasets/{}/test/*.*'.format(self.dataset_B_dir))
+            sample_files.sort(key=lambda x: int(os.path.splitext(os.path.basename(x))[0].split('e')[-1]))
         else:
             raise Exception('--which_direction must be AtoB or BtoA')
-        sample_files.sort(key=lambda x: int(os.path.splitext(os.path.basename(x))[0].split('_')[-1]))
+        # sample_files.sort(key=lambda x: int(os.path.splitext(os.path.basename(x))[0].split('')[-1]))
 
         if self.checkpoint.restore(self.checkpoint_manager.latest_checkpoint):
             print(" [*] Load checkpoint succeeded!")
