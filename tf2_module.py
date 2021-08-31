@@ -23,11 +23,12 @@ def softmax_criterion(logits, labels):
 def padding(x, p=3):
     return tf.pad(x, [[0, 0], [p, p], [p, p], [0, 0]], "REFLECT")
 
+
 class InstanceNorm(layers.Layer):
     def __init__(self, epsilon=1e-5):
         super(InstanceNorm, self).__init__()
         self.epsilon = epsilon
-    
+
     def call(self, x):
         scale = tf.Variable(
             initial_value=np.random.normal(1., 0.02, x.shape[-1:]),
@@ -50,8 +51,8 @@ class InstanceNorm(layers.Layer):
 class ResNetBlock(layers.Layer):
     def __init__(self, dim, k_init, ks=3, s=1):
         super(ResNetBlock, self).__init__()
-        self.dim = dim 
-        self.k_init = k_init 
+        self.dim = dim
+        self.k_init = k_init
         self.ks = ks
         self.s = s
         self.p = (ks - 1) // 2
@@ -91,8 +92,8 @@ class ResNetBlock(layers.Layer):
 
         return y
 
-def build_discriminator(options, name='Discriminator'):
 
+def build_discriminator(options, name='Discriminator'):
     initializer = tf.random_normal_initializer(0., 0.02)
 
     inputs = Input(shape=(options.time_step,
@@ -139,7 +140,6 @@ def build_discriminator(options, name='Discriminator'):
 
 
 def build_generator(options, name='Generator'):
-
     initializer = tf.random_normal_initializer(0., 0.02)
 
     inputs = Input(shape=(options.time_step,
@@ -235,7 +235,6 @@ def build_generator(options, name='Generator'):
 
 
 def build_discriminator_classifier(options, name='Discriminator_Classifier'):
-
     initializer = tf.random_normal_initializer(0., 0.02)
 
     inputs = Input(shape=(options.time_step,
@@ -308,7 +307,6 @@ def build_discriminator_classifier(options, name='Discriminator_Classifier'):
 
 
 if __name__ == '__main__':
-
     OPTIONS = namedtuple('OPTIONS', 'batch_size '
                                     'time_step '
                                     'input_nc '

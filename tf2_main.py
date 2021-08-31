@@ -31,7 +31,7 @@ parser.add_argument('--gamma', dest='gamma', type=float, default=1.0, help='weig
 parser.add_argument('--max_size', dest='max_size', type=int, default=50, help='max size of image pool, 0 means do not use image pool')
 parser.add_argument('--sigma_c', dest='sigma_c', type=float, default=0.01, help='sigma of gaussian noise of classifiers')
 parser.add_argument('--sigma_d', dest='sigma_d', type=float, default=0.01, help='sigma of gaussian noise of discriminators')
-parser.add_argument('--model', dest='model', default='full', help='three different models, base, partial, full')
+parser.add_argument('--model', dest='model', default='partial', help='two different models, base, partial')
 parser.add_argument('--type', dest='type', default='classifier', help='cyclegan or classifier')
 
 args = parser.parse_args()
