@@ -491,21 +491,3 @@ class CycleGAN(object):
             np.save(os.path.join(npy_path_transfer, '{}_transfer.npy'.format(idx + 1)), transfer)
             np.save(os.path.join(npy_path_cycle, '{}_cycle.npy'.format(idx + 1)), cycle)
 
-    # def test_famous(self, args):
-    #
-    #     song = np.load('./datasets/famous_songs/P2C/merged_npy/YMCA.npy')
-    #
-    #     if self.checkpoint.restore(self.checkpoint_manager.latest_checkpoint):
-    #         print(" [*] Load checkpoint succeeded!")
-    #     else:
-    #         print(" [!] Load checkpoint failed...")
-    #
-    #     if args.which_direction == 'AtoB':
-    #         transfer = self.generator_A2B(song,
-    #                                       training=False)
-    #     else:
-    #         transfer = self.generator_B2A(song,
-    #                                       training=False)
-    #
-    #     save_midis(transfer, './datasets/famous_songs/P2C/transfer/YMCA.mid', 127)
-    #     np.save('./datasets/famous_songs/P2C/transfer/YMCA.npy', transfer)
